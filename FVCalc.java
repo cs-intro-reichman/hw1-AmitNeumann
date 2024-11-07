@@ -7,6 +7,6 @@ public class FVCalc {
 		double base=1+dRate/100; //double base for mathpow+adjust 
 		double exponent=(double)(n);//from int to double
 		double futureValue=(currentValue*(Math.pow(base,exponent))); //return f value in double
-		System.out.println("After "+n+" years, $"+currentValue+" saved a "+dRate+"% will yield $"+(int)(futureValue));
+		System.out.println("After "+n+" years, $"+currentValue+" saved at "+dRate+"% will yield $"+(int)(futureValue));
 	}
 }
