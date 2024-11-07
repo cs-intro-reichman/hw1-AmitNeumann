@@ -5,6 +5,6 @@ public class Bill3 {
 		int bill=Integer.parseInt(args[3]);
 		double splitedBill=bill/3.0;
 		splitedBill=Math.ceil(splitedBill);
-		System.out.println("Dear "+name3+", "+name2+", and "+name1+" needs to pay: "+splitedBill+" Shekels each.");
+		System.out.println("Dear "+name3+", "+name2+", and "+name1+": pay "+splitedBill+" Shekels each.");
 	}
 }
