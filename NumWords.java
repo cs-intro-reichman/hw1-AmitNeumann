@@ -8,6 +8,5 @@ public class NumWords {
 		num=num%10;
 		System.out.println(hundreds+" hundreds, "+tens+" tens, and "+num+" ones.");
 		
-		
 	}
 }
