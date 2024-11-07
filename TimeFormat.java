@@ -7,7 +7,13 @@ public class TimeFormat {
 		if (hours>12) {
 			hours=hours-12;
 			time="PM";
-		} else time="AM"; // h is before 12 PM
+		} else if (hours==12)
+			time="PM";
+				else if (hours==0){
+					hours=12;
+					time="AM";
+				}
+						else time="AM"; // h is before 12 PM
 		if(minutes<10)
 			sMinutes="0"+minutes;
 		else 
