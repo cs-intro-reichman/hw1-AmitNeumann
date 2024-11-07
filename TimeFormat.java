@@ -7,11 +7,11 @@ public class TimeFormat {
 		if (hours>12) {
 			hours=hours-12;
 			time="PM";
-		} else time="AM"; // before 12 PM
+		} else time="AM"; // h is before 12 PM
 		if(minutes<10)
 			sMinutes="0"+minutes;
 		else 
 			sMinutes=""+minutes;
-		System.out.println(hours+" : "+sMinutes+" "+time);
+		System.out.println(hours+":"+sMinutes+" "+time);
 	}
 }
